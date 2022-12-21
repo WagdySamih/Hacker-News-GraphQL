@@ -17,12 +17,11 @@ async function post(parent, args, context, info) {
       postedBy
     }
   });
-
-  context.pubsub.publish('NEW_LINK', newLink);
+  
+  context.pubsub.publish('NEW_LINK', newLink);  // not important for now
 
   return newLink;
 }
-
 async function signup(parent, args, context, info) {
   const password = await bcrypt.hash(args.password, 10);
   const user = await context.prisma.user.create({
