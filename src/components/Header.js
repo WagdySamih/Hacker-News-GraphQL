@@ -5,10 +5,6 @@ import { AUTH_TOKEN } from '../constants';
 const Header = () => {
   const navigate = useNavigate();
   const authToken = localStorage.getItem(AUTH_TOKEN);
-  
-  console.log({
-    authToken
-  })
 
 
   return (
