@@ -1,3 +1,6 @@
+# Description.
+This is a simple project for hackers new to apply on graphQL concepts like queries, mutations and subscriptions, etc. while learning.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
